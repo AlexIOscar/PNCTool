@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: Test
+Class-Path: mssql-jdbc-9.2.0.jre8.jar jaybird-4.0.3.java8.jar jaybird-fu
+ ll-4.0.3.java8.jar jaybird-4.0.3.java8-javadoc.jar jaybird-4.0.3.java8-
+ sources.jar
+

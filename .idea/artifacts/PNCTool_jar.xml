@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="PNCTool:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PNCTool_jar</output-path>
+    <root id="root">
+      <element id="archive" name="PNCTool.jar">
+        <element id="module-output" name="PNCTool" />
+      </element>
+      <element id="library" level="project" name="jaybird-4.0.3" />
+      <element id="library" level="project" name="mssql-jdbc-9.2.0.jre8" />
+    </root>
+  </artifact>
+</component>
