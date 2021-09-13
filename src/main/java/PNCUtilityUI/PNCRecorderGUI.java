@@ -314,7 +314,7 @@ public class PNCRecorderGUI extends JFrame {
             for (int i = 0; i < rows; i++) {
                 if ((boolean) tableModel.getValueAt(i, 1)) {
                     marksNames.add((String) tableModel.getValueAt(i, 3));
-                    posNames.add(((String) tableModel.getValueAt(i, 4)).replaceAll("ПОЗ. ", ""));
+                    posNames.add(((String) tableModel.getValueAt(i, 4)).replaceAll(settings.regExpTruncate, ""));
                     checked.add(i);
                 }
             }
