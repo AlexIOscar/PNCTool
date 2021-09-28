@@ -348,7 +348,7 @@ public class PNCRecorder {
                     detMark + "', " + amount + ", 0, PIECE_QTPLACE, PIECE_LONGUEUR, PIECE_POIDS, " +
                     "PIECE_SURFACE, PIECE_NBUSI, PIECE_REMARQUE, 'PNCRecorder', PIECE_MACHINE, PIECE_TRAITEMENT, '"
                     + date + "', '" + time +
-                    "', PIECE_EXPORTE, PIECE_TYPEPIECE, PIECE_LARGEURJARRET, PIECE_MARQUE, " +
+                    "', 0, PIECE_TYPEPIECE, PIECE_LARGEURJARRET, PIECE_MARQUE, " +
                     "PIECE_SEL_EXPORT, PIECE_CUSTOM1, PIECE_CUSTOM2, PIECE_CUSTOM3, PIECE_CH1, PIECE_INT1, " +
                     "PIECE_DURET_ID, PIECE_USER_CREATE, PIECE_USER_MODIF, PIECE_PRS, " +
                     "PIECE_PRS_PENTE, " +
